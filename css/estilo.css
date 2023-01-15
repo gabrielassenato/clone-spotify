@@ -73,6 +73,10 @@ nav.navbar-transparente {
     color: black;
 }
 
+.carousel-control-next, .carousel-control-prev {
+    width: 5%;
+}
+
 /* Estrutura de conteúdos */
 #servicos {
     background: white;
@@ -145,7 +149,7 @@ footer ul li {
 
 /* Tipografia */
 h1 {
-    font-weight: 900;
+    font-weight: 700;
     letter-spacing: -0.05em;
     margin-bottom: 50px;
     color: white;
@@ -153,13 +157,13 @@ h1 {
 
 h2 {
     font-size: 3em;
-    font-weight: 700;
+    font-weight: 500;
     letter-spacing: -0.04em;
 }
 
 h3 {
     font-size: 2em;
-    font-weight: 700;
+    font-weight: 500;
     letter-spacing: -0.04em;
 }
 
@@ -174,7 +178,7 @@ h3 {
     }
 
     .btn-custom {
-        margin: 10px 15px;
+        margin: 7px 10px;
     }
 }
 
@@ -182,6 +186,10 @@ h3 {
 @media (min-width: 768px) {
     h1 {
         font-size: 4em;
+    }
+
+    .btn-custom {
+        margin: 10px 20px;
     }
 }
 
